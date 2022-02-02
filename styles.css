@@ -275,10 +275,10 @@
 }
 
 .main__container {
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr; */
-  /* align-items: center;
-  justify-content: center; */
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   margin: 0 auto;
   height: 90%;
@@ -393,9 +393,9 @@
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
 }
 
-.fa-layer-group,
+.fa-house-damage,
 .fa-users {
-  font-size: 14rem;
+  font-size: 25rem;
 }
 
 #card-2 {
@@ -425,6 +425,10 @@
     height: 425px;
     width: 425px;
   }
+  /* .fa-house-damage,
+  .fa-users {
+  font-size: 10rem;
+} */
 
   .main__content {
     text-align: center;
@@ -452,10 +456,10 @@
     height: 250px;
   }
 
-  .fa-users,
-  .fa-layer-group {
-    font-size: 4rem;
-  }
+  .fa-house-damage,
+  .fa-users {
+  font-size: 4rem;
+}
 
   .main__content h1 {
     font-size: 2rem;
