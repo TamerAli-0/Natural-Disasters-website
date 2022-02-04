@@ -737,16 +737,16 @@
 
 
 /* Scroll section is down bellow */
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-html {
+} */
+/* html {
   font-size: 40px;
   font-family: "Montserrat";
   scroll-behavior: smooth;
-}
+} */
 section {
   min-height: 100vh;
   width: 100%;
