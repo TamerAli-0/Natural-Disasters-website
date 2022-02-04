@@ -744,10 +744,10 @@
 } */
 /* html {
   font-size: 40px;
-  font-family: "Montserrat";
+  font-family: "Mogintserrat";
   scroll-behavior: smooth;
 } */
-section {
+/* section {
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -794,13 +794,13 @@ section {
 }
 .scroll-down::before {
   top: 30%;
-  animation-delay: 0.3s;
+  animation-delay: 0.3s; */
   /* animation: scroll-down 1s ease-in-out infinite; */
-}
+/* } */
 
-@keyframes scroll-down {
+/* @keyframes scroll-down {
   0% {
-    /* top:20%; */
+     top:20%; 
     opacity: 0;
   }
   30% {
@@ -813,5 +813,5 @@ section {
     top: 90%;
     opacity: 0;
   }
-}
+} */
 
