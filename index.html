@@ -1,55 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
     <title>Natural Disasters</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="swiper.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
     />
   </head>
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo">NATURAL DISASTERS</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span> <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#home" class="navbar__links" id="home-page">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#about" class="navbar__links" id="about-page">About</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#services" class="navbar__links" id="services-page"
+            >Services</a>
+        </li>
+        <!-- <li class="navbar__btn">
+          <a href="#sign-up" class="button" id="signup">Sign Up</a>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
   <body>
-    <!-- Navbar Section -->
-    <nav class="navbar">
-      <div class="navbar__container">
-        <a href="#home" id="navbar__logo">NATURAL DISASTERS</a>
-        <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span> <span class="bar"></span>
-          <span class="bar"></span>
+    <!-- Swiper -->
+    <div class="swiper mySwiper" id="home">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/images/vol.jpg"alt="slide1 edited"></div>
+        <div class="hero__heading">
+          <div class="info"><h1>Choose any<span><br> Natural Disaster</span></h1></div>
         </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="home-page">Home</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#about" class="navbar__links" id="about-page">About</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#services" class="navbar__links" id="services-page"
-              >Services</a
-            >
-          </li>
-          <!-- <li class="navbar__btn">
-            <a href="#sign-up" class="button" id="signup">Sign Up</a>
-          </li> -->
-        </ul>
+        <div class="swiper-slide"><img src="/images/earth.jpg"alt="slide2 edited"></div>
+        <div class="swiper-slide"><img src="/images/hurri.jpg"alt="slide3 edited"></div>
+        <div class="swiper-slide"><img src="/images/tsu.jpg"alt="slide4 edited"></div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
       </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <div class="hero" id="home">
-      <div class="hero__container">
-        <h1 class="hero__heading">Choose any<span><br> Natural Disaster</span></h1>
-        <!-- <p class="hero__description">Unlimited Possibilities</p> -->
-        <button class="main__btn"><a href="#about">Explore</a></button>
-      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
     </div>
 
-    <!-- About Section -->
+    <!-- Hero Section -->
+    <!-- <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Choose any<span><br> Natural Disaster</span></h1>
+      </div>
+    </div> -->
+
+
     <div class="main" id="about">
       <div class="main__container">
         <div class="main__img--container">
@@ -71,22 +92,22 @@
         <div class="services__card">
           <h2>Volcanic Eruptions</h2>
           <p>Volcanoes spew hot, dangerous gases, ash, lava, and rock that are powerfully destructive</p>
-          <div class="services__btn"><button>Discover</button></div>
+          <div class="services__btn"><button onclick="window.location.href='info.html#sec-1'">Discover</button></div>
         </div>
         <div class="services__card">
           <h2>Earthquakes</h2>
           <p>Earthquakes kill, on average, about 20,000 people every year</p>
-          <div class="services__btn"><button>Discover</button></div>
+          <div class="services__btn"><button onclick="window.location.href='info.html#sec-2'">Discover</button></div>
         </div>
         <div class="services__card">
           <h2>Hurricanes</h2>
           <p>Blackouts and storm surges entrust the media's trust astound.People are to be absconded</p>
-          <div class="services__btn"><button>Discover</button></div>
+          <div class="services__btn"><button onclick="window.location.href='info.html#sec-3'">Discover</button></div>
         </div>
         <div class="services__card">
           <h2>Tsunamis</h2>
           <p>Tsunamis with runups over one meter (3.28 feet) are particularly dangerous to people and property.</p>
-          <div class="services__btn"><button>Discover</button></div>
+          <div class="services__btn"><button onclick="window.location.href='info.html#sec-4'"> Discover</button></div>
         </div>
       </div>
     </div>
@@ -164,5 +185,35 @@
     </div>
 
     <script src="app.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable:true,
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
+    <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('swiper-slide' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
+      </script>
+
   </body>
 </html>
