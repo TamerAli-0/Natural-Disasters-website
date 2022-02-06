@@ -901,7 +901,7 @@ swiper-wrapper{
   text-align: center;
   color: white;
 }
-.hero__heading {
+/* .hero__heading {
 position: absolute;
 color: #222;
 background: rgba(255, 255, 255, 0.3);
@@ -917,4 +917,4 @@ font-size: 30px;
 .hero__heading .info{
   color: white;
   
-}
+} */
