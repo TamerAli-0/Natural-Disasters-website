@@ -10,12 +10,11 @@
     <link rel="stylesheet" href="swiper.css" />
     <link
       rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-    />
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <nav class="navbar">
     <div class="navbar__container">
@@ -45,22 +44,20 @@
     <!-- Swiper -->
     <div class="swiper mySwiper" id="home">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="/images/vol.jpg"alt="slide1 edited"></div>
-        <div class="hero__heading">
-          <div class="info"><h1>Choose any<span><br> Natural Disaster</span></h1></div>
-        </div>
+        <div class="swiper-slide"><img src="/images/vol.jpg"alt="slide1 edited"></div>  
         <div class="swiper-slide"><img src="/images/earth.jpg"alt="slide2 edited"></div>
+        
         <div class="swiper-slide"><img src="/images/hurri.jpg"alt="slide3 edited"></div>
         <div class="swiper-slide"><img src="/images/tsu.jpg"alt="slide4 edited"></div>
-        <div class="swiper-slide">Slide 5</div>
+        <!-- <div class="swiper-slide">Slide 5</div>
         <div class="swiper-slide">Slide 6</div>
         <div class="swiper-slide">Slide 7</div>
         <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
+        <div class="swiper-slide">Slide 9</div> -->
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next" data-aos="fade-left"></div>
+      <div class="swiper-button-prev" data-aos="fade-right"></div>
+      <div class="swiper-pagination" data-aos="fade-up"></div>
     </div>
 
     <!-- Hero Section -->
@@ -74,105 +71,61 @@
     <div class="main" id="about">
       <div class="main__container">
         <div class="main__img--container">
-          <div class="main__img--card"><i class="fas fa-house-damage"></i></div>
+          <div class="main__img--card" data-aos="fade-up"><i class="fas fa-house-damage" data-aos="fade-left"></i></div>
         </div>
         <div class="main__content">
-          <h1>What's it About?</h1>
-          <h2>We help prevent accidents during <br>natural disasters</h2>
-          <p>Press on the button <br> to learn more about how <br> to be safe  in a natural Disaster</p>
-          <button class="main__btn"><a href="#services">More about natural disasters</a></button>
+          <div data-aos="fade-left"><h1>What's it About?</h1></div> 
+          <div data-aos="fade-left"><h2>We help prevent accidents during <br>natural disasters</h2> </div>
+          <div data-aos="fade-left"><p>Press on the button <br> to learn more about how <br> to be safe  in a natural Disaster</p></div>
+          <div data-aos="fade-left"><button class="main__btn"><a href="#services">More about natural disasters</a></button></div></div>
         </div>
       </div>
     </div>
 
     <!-- Services Section -->
     <div class="services" id="services">
-      <h1>Our Services</h1>
-      <div class="services__wrapper">
-        <div class="services__card">
+      <div data-aos="zoom-in"><h1>Our Services</h1> </div>
+      <div class="services__wrapper" >
+        <div class="services__card" data-aos="fade-right" >
           <h2>Volcanic Eruptions</h2>
           <p>Volcanoes spew hot, dangerous gases, ash, lava, and rock that are powerfully destructive</p>
           <div class="services__btn"><button onclick="window.location.href='info.html#sec-1'">Discover</button></div>
         </div>
-        <div class="services__card">
+        <div class="services__card" data-aos="fade-up">
           <h2>Earthquakes</h2>
           <p>Earthquakes kill, on average, about 20,000 people every year</p>
           <div class="services__btn"><button onclick="window.location.href='info.html#sec-2'">Discover</button></div>
         </div>
-        <div class="services__card">
+        <div class="services__card" data-aos="fade-up">
           <h2>Hurricanes</h2>
           <p>Blackouts and storm surges entrust the media's trust astound.People are to be absconded</p>
           <div class="services__btn"><button onclick="window.location.href='info.html#sec-3'">Discover</button></div>
         </div>
-        <div class="services__card">
+        <div class="services__card" data-aos="fade-left">
           <h2>Tsunamis</h2>
           <p>Tsunamis with runups over one meter (3.28 feet) are particularly dangerous to people and property.</p>
           <div class="services__btn"><button onclick="window.location.href='info.html#sec-4'"> Discover</button></div>
         </div>
       </div>
     </div>
-
-    <!-- Features Section -->
-    <!-- <div class="main" id="sign-up">
-      <div class="main__container">
-        <div class="main__content">
-          <h1>Join Our Team</h1>
-          <h2>Sign Up Today</h2>
-          <p>See what makes us different</p>
-          <button class="main__btn"><a href="#">Sign Up</a></button>
-        </div>
-        <div class="main__img--container">
-          <div class="main__img--card" id="card-2">
-            <i class="fas fa-users"></i>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <!-- Footer Section -->
-    <div class="footer__container">
-      <div class="footer__links">
-        <div class="footer__link--wrapper">
-          <!-- <div class="footer__link--items">
-            <h2>About Us</h2>
-            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
-            <a href="/">Careers</a> <a href="/">Terms of Service</a>
-           </div> 
-          <div class="footer__link--items">
-            <h2>Contact Us</h2>
-            <a href="/">Contact</a> <a href="/">Support</a>
-            <a href="/">Destinations</a>
-          </div> -->
-        </div>
-        <div class="footer__link--wrapper">
-          <div class="footer__link--items">
-            <!-- <h2>Videos</h2>
-            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
-            <a href="/">Agency</a>
-          </div>
-          <div class="footer__link--items">
-            <h2>Social Media</h2>
-            <a href="/">Instagram</a> <a href="/">Facebook</a>
-            <a href="/">Youtube</a> <a href="/">Twitter</a>
-          </div> -->
-        </div>
-      </div>
-      <section class="social__media">
+      <!-- </div>
+       <section class="social__media">
         <div class="social__media--wrap">
           <div class="footer__logo">
             <a href="/" id="footer__logo">DISASTER</a>
           </div>
           <p class="website__rights">© Natural Disaster's Project. All rights reserved</p>
           <div class="social__icons">
-            <!-- <a href="/" class="social__icon--link" target="_blank"
+             <a href="/" class="social__icon--link" target="_blank"
               ><i class="fab fa-facebook"></i
-            ></a> -->
+            ></a> 
             <a href="/" class="social__icon--link"
               ><i class="fab fa-instagram"></i
             ></a>
-            <!-- <a href="/" class="social__icon--link"
+            < <a href="/" class="social__icon--link"
               ><i class="fab fa-youtube"></i
-            ></a> -->
+            ></a> 
             <a href="/" class="social__icon--link"
               ><i class="fab fa-linkedin"></i
             ></a>
@@ -182,7 +135,7 @@
           </div>
         </div>
       </section>
-    </div>
+    </div> -->
 
     <script src="app.js"></script>
     <!-- Swiper JS -->
@@ -191,29 +144,27 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
-        cssMode: true,
+        // spaceBetween: 3,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable:true,
-        },
-        mousewheel: true,
-        keyboard: true,
       });
     </script>
-    <script type="text/javascript">
-      var counter = 1;
-      setInterval(function(){
-        document.getElementById('swiper-slide' + counter).checked = true;
-        counter++;
-        if(counter > 4){
-          counter = 1;
-        }
-      }, 5000);
-      </script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 500
+      });
+    </script>
   </body>
 </html>
