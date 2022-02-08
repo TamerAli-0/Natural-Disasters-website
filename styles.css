@@ -852,28 +852,113 @@ section {
   justify-content: center;
 }
 #sec-1 {
-  background-color: rgb(214, 228, 92);
-  height: 100vh;
-  width: 100%;
+  /* background-color: rgb(214, 228, 92); */
+  color: #29a809;
   align-items: center;
+  text-align: center;
 }
 #sec-2 {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  color: #cc0d0d;
   align-items: center;
+  text-align: center;
 }
 #sec-3 {
-  background-color: rgb(15, 19, 22);
+  /* background-color: rgb(71, 61, 1); */
+  color: #e40aeb;
   align-items: center;
+  text-align: center;
 }
 #sec-4 {
-  background-color: rgb(10, 148, 51);
+  /* background-color: rgb(10, 148, 51); */
+  color: #141679;
   align-items: center;
+  text-align: center;
 }
 
-.container h1{
+/* .container h1{
   text-align: center;
 
+} */
+
+.wrap{
+	width: 800px;
+	max-width: 90%;
+	margin: 30px auto;
 }
+
+ul.tabs{
+	width: 100%;
+	background: #363636;
+	list-style: none;
+	display: flex;
+}
+
+ul.tabs li{
+	width: 18%;
+}
+
+ul.tabs li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+
+	display: block;
+	padding: 20px 0px;
+}
+
+.active{
+	background: #0984CC;
+}
+
+ul.tabs li a .tab-text{
+	margin-left: 8px;
+}
+
+.secciones{
+	width: 100%;
+	background: #fff;
+}
+
+.secciones article{
+	padding: 30px;
+}
+
+.secciones article p{
+	text-align: justify;
+}
+
+
+@media screen and (max-width: 700px){
+	ul.tabs li{
+		width: none;
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (max-width: 450px){
+	ul.tabs li a{
+		padding: 15px 0px;
+	}
+
+	ul.tabs li a .tab-text{
+		display: none;
+	}
+
+	.secciones article{
+		padding: 20px;
+	}
+}
+
+
+
+
+
+
+
+
 
 footer{
   /* position: absolute;
