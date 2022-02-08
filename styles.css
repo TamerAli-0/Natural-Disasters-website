@@ -865,13 +865,13 @@ section {
 }
 #sec-3 {
   /* background-color: rgb(71, 61, 1); */
-  color: #e40aeb;
+  color: #e950ee;
   align-items: center;
   text-align: center;
 }
 #sec-4 {
   /* background-color: rgb(10, 148, 51); */
-  color: #141679;
+  color: #3639f3;
   align-items: center;
   text-align: center;
 }
@@ -918,7 +918,7 @@ ul.tabs li a .tab-text{
 
 .secciones{
 	width: 100%;
-	background: #fff;
+	background: #131313;
 }
 
 .secciones article{
