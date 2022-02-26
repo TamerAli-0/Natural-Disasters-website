@@ -559,34 +559,29 @@ body{
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
   transition: 0.3s ease-in;
+}
+.services__card:nth-child(1) {
+  background: #1fa2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#000000,#ff00d4); /* Chrome 10-25, Safari 5.1-6 */
+  background-image: linear-gradient(to right, #000000 0%, #8c00ff 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .services__card:nth-child(2) {
   background: #1fa2ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
-    #a6ffcb,
-    #12d8fa,
-    #1fa2ff
+    to right,#a6ffcb,#1fa2ff
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #a6ffcb,
-    #12d8fa,
-    #1fa2ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(to right, #000000 0%, #2600ff 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .services__card:nth-child(3) {
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
+  /* background-image: linear-gradient(-225deg, #231557 0%,#fff800 100%); */
+  background-image: linear-gradient(to right, #000000 0%, #ff0000 100%);
+}
+.services__card:nth-child(4) {
+  background-image: linear-gradient(to right, #000000 0%, #fc00ff 100%);
 }
 
 .services__card h2 {
