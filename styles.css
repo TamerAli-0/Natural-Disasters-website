@@ -1039,7 +1039,20 @@ ul.tabs li a .tab-text{
 
 
 
+/* Iframe video footer */
 
+.video-stuff{
+  padding-bottom: 20px;
+}
+.video-info{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: -webkit-linear-gradient(#eee, rgb(211, 16, 16));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 
