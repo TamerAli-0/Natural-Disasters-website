@@ -1048,6 +1048,22 @@ ul.tabs li a .tab-text{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.sources{
+  text-align: left;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(to right, #9a39e4 0%, #6e2c2c 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
 
 
 
