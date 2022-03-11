@@ -243,9 +243,9 @@ body {
     -moz-text-fill-color: transparent;
 }
 
-.highlight {
+/* .highlight {
     border-bottom: 4px solid rgb(132, 0, 255);
-}
+} */
 
 @media screen and (max-width: 768px) {
     .hero__heading {
@@ -923,7 +923,37 @@ swiper-wrapper {
     align-items: center;
     text-decoration: none;
 }
+#sec-5 {
+    /* background-color: rgb(10, 148, 51); */
+    align-items: center;
+    text-align: left;
+    background-color: #521a16;
+    background-image: linear-gradient(to right, #08b64b 0%, #3a7bd5 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
 
+#sec-6 {
+    /* background-color: rgb(10, 148, 51); */
+    align-items: center;
+    text-align: left;
+    background-color: #521a16;
+    background-image: linear-gradient(to right, #eea300 0%, #0c4eaa 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
 
 /* .container h1{
   text-align: center;
@@ -1004,6 +1034,7 @@ ul.tabs li a .tab-text {
 
 .video-stuff {
     padding-bottom: 20px;
+    margin-top: 20px;
 }
 
 .video-info {

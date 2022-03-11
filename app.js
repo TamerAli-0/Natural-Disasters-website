@@ -75,6 +75,8 @@ parentContainer.addEventListener('click', event=>{
 })
 
 
+
+
 // // const readMoreBtn = document.querySelector(".read-more-btn");
 // const readMoreBtn = document.querySelector(".read-more-btn");
 // const text = document.querySelector(".text");
